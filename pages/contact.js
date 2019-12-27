@@ -1,30 +1,32 @@
+import Layout from '../components/Layout';
 
 const About = () => (
-    <section id="contact" className="contact-section">
-        <div className="contact-section-header">
-            <h2>Let's work together...</h2>
+    <Layout>
+        <section id="contact" className="contact-section">
+            <div className="contact-section-header">
+                <h2>Let's work together...</h2>
+                <br />
+                <p>How do you take your coffee?</p>
+            </div>
             <br />
-            <p>How do you take your coffee?</p>
-        </div>
-        <br />
-        <div className="contact-links">
-            <a  href="https://github.com/hazelbag"
-                target="_blank"
-                className="btn contact-details">
-                <i className="fab fa-github"></i> GitHub
-            </a>
-            
-            <a  href="mailto:jacques@outlook.com" 
-                className="btn contact-details">
-                <i className="fas fa-at"></i> Send a mail
+            <div className="contact-links">
+                <a href="https://github.com/hazelbag"
+                    target="_blank"
+                    className="btn contact-details">
+                    <i className="fab fa-github"></i> GitHub
             </a>
 
-            <a  className="btn contact-details"
-                href="#">
-            <i className="fas fa-phone"></i> 066 249 0030
+                <a href="mailto:jacques@outlook.com"
+                    className="btn contact-details">
+                    <i className="fas fa-at"></i> Send a mail
             </a>
-        </div >
-        <style jsx>{`
+
+                <a className="btn contact-details"
+                    href="tel:+27662490030">
+                    <i className="fas fa-phone"></i> 066 249 0030
+            </a>
+            </div >
+            <style jsx>{`
     section {
         display: flex;
         flex-direction: column;
@@ -32,7 +34,7 @@ const About = () => (
         align-items: center;
         text-align: center;
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         padding: 0 2rem;
         padding-bottom: 10rem;
       }
@@ -77,7 +79,8 @@ const About = () => (
         -webkit-text-fill-color: transparent;
       }
 `}</style>
-    </section >
+        </section >
+    </Layout>
 );
 
 export default About;
