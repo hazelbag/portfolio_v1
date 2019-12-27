@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from './Layout';
 
 const About = () => (
   <section className="about-section" id="about">

@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
-import About from './about';
-import Contact from './contact';
+import About from '../components/about';
+import Contact from '../components/contact';
 
 
 const Index = (props) => (
