@@ -30,6 +30,20 @@ const About = () => (
            working effectively under pressure and prioritizing workloads effectively. I work well with people of all levels, communicating concisely
            with both clients and colleagues. I also have knowledge of the IT industry and have assisted IT departments at all employers.
       </p>
+      <br />
+      <p>
+      I have always had an interest in tech, I enjoy working with PC's and learning how to write code, seeing it all come together at the end, it's joyful. 
+      In my opinion, working in HR &amp; Payroll was a tedious job, but working as a Dev is certainly a highlight for me.
+      </p>
+      <br />
+      <p> Download my Resume:<br />
+        <a 
+        href="/directory/yourfile.pdf" 
+        download="newfilename" 
+        className="btn-show-all" 
+        target="_blank">
+        <i className="fas fa-file-download"></i></a>
+      </p>
       </div>
       <style jsx>{`
     section {
@@ -56,6 +70,10 @@ const About = () => (
         font-style: italic;
         font-size: 22px;
         color: #fff
+      }
+    a {
+        text-decoration: none;
+        color: #fff;
       }
 `}</style>
     </section>

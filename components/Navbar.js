@@ -3,8 +3,8 @@ import Link from 'next/link';
 const Navbar = () => (
   <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
     <div className="container">
-      <a className="navbar-brand" href="#">
-        <img src="../static/code.svg" width="30" height="30"></img> jOlivier Portfolio</a>
+      <a className="navbar-brand" href="/">
+        <img src="../static/code.svg" width="30" height="30"></img> jOlivier</a>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
