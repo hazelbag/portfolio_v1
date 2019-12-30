@@ -19,15 +19,16 @@ const Layout = (props) => (
     <Navbar />
     <div>
       {props.children}
-    </div>
-    <Footer />
-    <style jsx>{`
+
+      <Footer />
+      <style jsx>{`
   
   div {
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   }
 `}</style>
+    </div>
   </div>
 );
 

@@ -1,55 +1,141 @@
 import Layout from '../components/Layout';
 
 
+
 const Projects = (props) => (
   <Layout>
-    <section id="projects" className="projects">
+    <div className="projectTiles">
       <h1>Check out my projects</h1>
       <br />
       <br />
-      <div className="project-grid">
-        <p>
-          <img className="project-image" src="http://tiny.cc/99etaz" alt="project-alt" />
-          <p className="project-title">
-            <a href="" target="_blank" />
-            <span className="code">&lt;</span>
-            Coming Soon
-            <span className="code">&gt;</span>
-          </p>
-        </p>
-
-        <p>
-          <img className="project-image" src="http://tiny.cc/99etaz" alt="project-alt" />
-          <p className="project-title">
-            <a href="" target="_blank"/>
-            <span className="code">&lt;</span>
-            Coming Soon
-            <span className="code">&gt;</span>
-          </p>
-        </p>
-
-        <p>
-          <img className="project-image" src="http://tiny.cc/99etaz" alt="project-alt" />
-          <p className="project-title">
-            <a href="" target="_blank" />
-            <span className="code">&lt;</span>
-            Coming Soon
-            <span className="code">&gt;</span>
-          </p>
-        </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">Weather App</h4>
+              <img className="card-img-top bg-light" src="../static/weatherSearch.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/Weather-App-with-React" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://weather-api-search.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">iTunes Media Search</h4>
+              <img className="card-img-top bg-light" src="../static/itunesSearch.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/iTunes-Media-Search" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://itunes-search-hazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">Minesweeper Game</h4>
+              <img className="card-img-top bg-light" src="../static/minesweeper.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/minesweeper-react-game" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://minesweeperhazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">JSON Notes API</h4>
+              <img className="card-img-top bg-light" src="../static/jsonAPP.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/JSON-Notes-API-APP" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">Speech Detector</h4>
+              <img className="card-img-top bg-light" src="../static/speechDetector.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/Speech-Detector" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="card mb-3 border-primary bg-light">
+              <h4 className="card-header">Flex Panel Gallery</h4>
+              <img className="card-img-top bg-light" src="../static/flexPanel.JPG" alt="Card image cap" />
+              <div className="card-body bg-light">
+                <h5 className="card-title">Language used on project</h5>
+                <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/Flex-Panel-Gallery" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <a href="https://github.com/hazelbag" className="btn-show-all" target="_blank">Show All <i className="fas fa-chevron-right"></i>
-      </a>
-    </section>
-    <style jsx>{`
-    section {
-      padding-bottom: 15rem;
-      height: 100vh;
-      background-color: #000;
-      background-image: linear-gradient(62deg,#3a3d40 0%,#181719 100%);
+      <style jsx>{`
+    .projectTiles {
+      padding-bottom: 8rem;
+      }
+    container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      padding-bottom: 100rem;
+    }
+    img {
+      height: 250px
+    }
+    .card-header {
+      text-align: center
+    }
+    .card-body {
+      text-align: center;
     }
     h1 {
-      padding-top: 10rem;
+      padding-top: 5rem;
       text-align: center;
       font-size: 6rem;
       background: -webkit-linear-gradient(#38d39f,#38a4d3);
@@ -62,73 +148,8 @@ const Projects = (props) => (
       background-color: #000;
       background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     }
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      grid-gap: 2rem;
-      width: 100%;
-      max-width: 1280px;
-      margin: 0 auto;
-      margin-bottom: 6rem;
-    }
-    .project {
-      background: #005580;
-      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-      border-radius: 2px;
-    }
-    
-    .code {
-      color: #007bff;;
-      transition: color 0.3s ease-out;
-    }
-    
-    .project:hover .code {
-      color: #f50101;
-    }
-    
-    .project-image {
-      height: calc(100% - 6.8rem);
-      width: 100%;
-      object-fit: cover;
-    }
-    
-    .project-title {
-      font-size: 1.5rem;
-      padding: 0.3rem 0.3rem;
-      color: #fff;
-      background: #005580;
-    }
-    
-    .project-title:hover {
-      color: yellow;
-    }
-    
-    .btn {
-      display: inline-block;
-      padding: 1rem 2rem;
-      border-radius: 2px;
-    }
-    
-    .btn-show-all {
-      font-size: 2rem;
-      color: #f0f0f0;
-      transition: background 0.3s ease-out;
-    }
-    
-    .btn-show-all:hover {
-      color: red;
-    }
-    
-    .btn-show-all:hover>i {
-      transform: translateX(2px);
-    }
-    
-    .btn-show-all>i {
-      margin-left: 10px;
-      transform: translateX(0);
-      transition: transform 0.3s ease-out;
-    }
   `}</style>
+    </div>
   </Layout>
 );
 
