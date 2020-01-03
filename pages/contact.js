@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-const About = () => (
+const Contact = () => (
     <Layout>
         <section id="contact" className="contact-section">
             <div className="contact-section-header">
@@ -70,6 +70,7 @@ const About = () => (
         color: white
         font-size: 2.4rem;
         transition: transform 0.3s ease-out;
+        font-size: 2.4rem;
       }
       
     a:hover {
@@ -83,4 +84,4 @@ const About = () => (
     </Layout>
 );
 
-export default About;
+export default Contact;
