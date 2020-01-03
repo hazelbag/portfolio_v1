@@ -60,7 +60,7 @@ const Contact = () => (
         -webkit-text-fill-color: transparent;
     }
       
-    .contact-details {
+    a {
         display: inline
         justify-content: center;
         width: 100%;
@@ -71,7 +71,7 @@ const Contact = () => (
         font-size: 2.4rem;
       }
       
-    .contact-details:hover {
+    a:hover {
         transform: translateY(8px);
         background: -webkit-linear-gradient(#38d39f, #38a4d3);
         -webkit-background-clip: text;
