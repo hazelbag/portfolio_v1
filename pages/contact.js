@@ -65,13 +65,13 @@ const Contact = () => (
     }
       
     a {
-        display: inline
+        display: inline;
+        color: white;
         justify-content: center;
         width: 100%;
         max-width: 980px;
         margin-top: 4rem;
         flex-wrap: wrap;
-        color: #fff
         font-size: 36px;
         padding: 0.8rem;
       }
