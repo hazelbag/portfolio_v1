@@ -60,20 +60,18 @@ const Contact = () => (
         -webkit-text-fill-color: transparent;
     }
       
-    a {
+    .contact-details {
         display: inline
         justify-content: center;
         width: 100%;
         max-width: 980px;
         margin-top: 4rem;
         flex-wrap: wrap;
-        color: white
-        font-size: 2.4rem;
-        transition: transform 0.3s ease-out;
+        color: #fff
         font-size: 2.4rem;
       }
       
-    a:hover {
+    .contact-details:hover {
         transform: translateY(8px);
         background: -webkit-linear-gradient(#38d39f, #38a4d3);
         -webkit-background-clip: text;

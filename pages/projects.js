@@ -5,26 +5,23 @@ import Layout from '../components/Layout';
 const Projects = (props) => (
   <Layout>
     <div className="projectTiles">
-      <h1>Check out my projects</h1>
+      <h1>...some of my work</h1>
       <br />
       <br />
       <div className="container">
         <div className="row">
           <div className="col-sm">
             <div className="card mb-3 border-primary bg-light">
-              <h4 className="card-header">Weather App</h4>
-              <img className="card-img-top bg-light" src="../static/weatherSearch.JPG" alt="Card image cap" />
+              <h4 className="card-header">Star Wars</h4>
+              <img className="card-img-top bg-light" src="../static/starwars.JPG" alt="Card image cap" />
               <div className="card-body bg-light">
                 <h5 className="card-title">Language used on project</h5>
-                <i className="fab fa-react fa-3x"></i>&nbsp;
-                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
                   <i className="fab fa-js-square fa-3x"></i>&nbsp;
                   <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
-                  <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/Weather-App-with-React" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
-                <a href="https://weather-api-search.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+                <a href="https://github.com/hazelbag/Star-Wars-API-Fun" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://starwars.hazelbag.now.sh/" target="_blank" className="btn btn-primary">Live Link</a>
               </div>
             </div>
           </div>
