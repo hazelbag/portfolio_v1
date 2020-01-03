@@ -12,16 +12,16 @@ const Contact = () => (
             <div className="contact-links">
                 <a href="https://github.com/hazelbag"
                     target="_blank"
-                    className="btn contact-details">
+                    className="contact-details">
                     <i className="fab fa-github"></i> GitHub
             </a>
 
                 <a href="mailto:jacques@outlook.com"
-                    className="btn contact-details">
+                    className="contact-details">
                     <i className="fas fa-at"></i> Send a mail
             </a>
 
-                <a className="btn contact-details"
+                <a className="contact-details"
                     href="tel:+27662490030">
                     <i className="fas fa-phone"></i> 066 249 0030
             </a>
@@ -59,6 +59,10 @@ const Contact = () => (
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .contact-links {
+        font-size: 2.4rem;
+        color: #fff;
+    }
       
     a {
         display: inline
@@ -68,7 +72,8 @@ const Contact = () => (
         margin-top: 4rem;
         flex-wrap: wrap;
         color: #fff
-        font-size: 2.4rem;
+        font-size: 36px;
+        padding: 0.8rem;
       }
       
     a:hover {
