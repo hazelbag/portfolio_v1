@@ -1,22 +1,22 @@
 import Layout from '../components/Layout';
 
-
-
 const Projects = (props) => (
   <Layout>
     <div className="projectTiles">
-      <h1>...some of my work</h1>
+      <div className='banner-text'>
+        <h1 className='projectsHeading'>...some of my work</h1>
+      </div>
       <br />
       <br />
       <div className="container">
         <div className="row">
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card">
               <h4 className="card-header">Star Wars</h4>
               <img className="card-img-top bg-light" src="../static/starwars.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
-                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
+                <i className="fab fa-js-square fa-3x"></i>&nbsp;
                   <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
                 <br />
                 <br />
@@ -26,11 +26,11 @@ const Projects = (props) => (
             </div>
           </div>
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card">
               <h4 className="card-header">iTunes Media Search</h4>
               <img className="card-img-top bg-light" src="../static/itunesSearch.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
                 <i className="fab fa-react fa-3x"></i>&nbsp;
                   <i className="fab fa-node-js fa-3x"></i>&nbsp;
                   <i className="fab fa-js-square fa-3x"></i>&nbsp;
@@ -44,11 +44,11 @@ const Projects = (props) => (
             </div>
           </div>
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card">
               <h4 className="card-header">Minesweeper Game</h4>
               <img className="card-img-top bg-light" src="../static/minesweeper.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
                 <i className="fab fa-react fa-3x"></i>&nbsp;
                   <i className="fab fa-node-js fa-3x"></i>&nbsp;
                   <i className="fab fa-js-square fa-3x"></i>&nbsp;
@@ -64,11 +64,11 @@ const Projects = (props) => (
         </div>
         <div className="row">
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card">
               <h4 className="card-header">JSON Notes API</h4>
               <img className="card-img-top bg-light" src="../static/jsonAPP.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
                 <i className="fab fa-react fa-3x"></i>&nbsp;
                   <i className="fab fa-node-js fa-3x"></i>&nbsp;
                   <i className="fab fa-js-square fa-3x"></i>&nbsp;
@@ -81,11 +81,11 @@ const Projects = (props) => (
             </div>
           </div>
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card mb-3">
               <h4 className="card-header">Speech Detector</h4>
               <img className="card-img-top bg-light" src="../static/speechDetector.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
                 <i className="fab fa-js-square fa-3x"></i>&nbsp;
                   <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
                   <i className="fab fa-html5 fa-3x"></i>
@@ -96,11 +96,11 @@ const Projects = (props) => (
             </div>
           </div>
           <div className="col-sm">
-            <div className="card mb-3 border-primary bg-light">
+            <div className="cardBody card mb-3">
               <h4 className="card-header">Flex Panel Gallery</h4>
               <img className="card-img-top bg-light" src="../static/flexPanel.JPG" alt="Card image cap" />
-              <div className="card-body bg-light">
-                <h5 className="card-title">Language used on project</h5>
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
                 <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
@@ -113,28 +113,66 @@ const Projects = (props) => (
       </div>
       <style jsx>{`
     .projectTiles {
-      padding-bottom: 8rem;
-      }
+      padding-bottom: 4rem;
+      text-align: center;
+      background: -webkit-linear-gradient(
+        to bottom,
+        #4286f4,
+        #373b44
+      );
+      background: linear-gradient(
+        to bottom,
+        #4286f4,
+        #373b44
+      );
+    }
     container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-content: center;
-      padding-bottom: 100rem;
+      max-width: 960px;
     }
     img {
       height: 250px
     }
+    .fab {
+      font-size: 28px;
+      color: black;
+    }
+    .col-sm {
+      padding-bottom: 1rem;
+    }
+    .cardBody {
+      background: black;
+    }
     .card-header {
       text-align: center
+      background: black;
+      color: #38a4d3;
+      font-size: 20px;
+    }
+    .card-title {
+      font-size: 18px;
+      color: #38a4d3
     }
     .card-body {
       text-align: center;
+      font-size: 20px;
     }
-    h1 {
-      padding-top: 5rem;
+    .banner-text {
+      background-color: black;
+      opacity: 0.8;
+      width: 60%;
+      margin: auto;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .projectsHeading {
       text-align: center;
-      font-size: 6rem;
+      padding-bottom: 10px;
+      font-size: 6.5rem;
       background: -webkit-linear-gradient(#38d39f,#38a4d3);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

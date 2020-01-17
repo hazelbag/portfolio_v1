@@ -1,36 +1,71 @@
 import Layout from '../components/Layout';
 
 
-const Index = (props) => (
+const Index = () => (
   <Layout>
-    <div>
-      <h1>Hey I'm Jacques,</h1>
-      <h3>Full Stack Web Developer</h3>
-      <p>and I want to create and turn your ideas into reality</p>
+    <div className='landingDiv'>
+      <img className='wolfImage' src='./static/wolf.png' />
+      <div className="box-info">
+        <div className="border1">
+          <div className="banner-text">
+            <h1 className='landingHeading'>Hey I'm Jacques,</h1>
+            <h3 className='introHeading'>Full Stack Web Developer</h3>
+            <p className='introParagraph'>and I want to turn your ideas into reality</p>
+            <hr />
+            <br />
+            <p className='introParagraph'>
+              HTML/CSS | Bootstrap | JavaScript | React | NextJS | NodeJS | Express | MongoDB
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <style jsx>{`
-    div {
-      padding-top: 20rem;
-      padding-bottom: 15rem;
-      height: 100vh;
+    .landingDiv {
+      padding-top: 0.8rem;
     }
-    h1 {
+    .wolfImage {
+      align: center;
+      height: 30vmin;
+      margin: 1px auto;
+      display: block;
+      opacity: 0.4;
+    }
+    .box-info {
+      line-height: 1;
+    }
+    .banner-text {
+      background-color: black;
+      opacity: 0.8;
+      width: 65%;
+      margin: auto;
+      border-radius: 10px;
+    }
+    .banner-text hr {
+      border-top: 5px dotted white;
+      width: 50%;
+      margin: auto;
+    }
+    .landingHeading {
       text-align: center;
-      font-size: 6rem;
+      font-size: 5rem;
+      font-weight: bolder;
       background: -webkit-linear-gradient(#38d39f, #38a4d3);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    h3 {
+    .introHeading {
       text-align: center;
+      font-weight: bold;
       font-size: 3rem;
-      padding: 2rem 0;
+      padding: 1.4rem 0;
       color: #fff
     }
-    p {
+    .introParagraph {
       text-align: center;
       color: #fff;
       font-size: 22px;
+      padding-bottom: 1rem;
     }
   `}</style>
   </Layout>
