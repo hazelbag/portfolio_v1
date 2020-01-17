@@ -4,9 +4,9 @@ const Contact = () => (
     <Layout>
         <section id="contact" className="contact-section">
             <div className="contact-section-header">
-                <h2>Let's work together...</h2>
+                <h2 className='sectionHeading'>Let's work together...</h2>
                 <br />
-                <p>How do you take your coffee?</p>
+                <p className='sectionParagraph'>How do you take your coffee?</p>
             </div>
             <br />
             <div className="contact-links">
@@ -25,32 +25,43 @@ const Contact = () => (
                     href="tel:+27662490030">
                     <i className="fas fa-phone"></i> 066 249 0030
             </a>
+            <br />
+            <img className='wolfImage' src='./static/wolf.png' />
             </div >
             <style jsx>{`
-    section {
+    .contact-section {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
-        width: 100%;
-        height: 100vh;
-        padding: 0 2rem;
-        padding-bottom: 10rem;
+        min-width: 100%;
+        min-height: 100%;
+        padding-top: 10rem;
+        padding-bottom: 20rem;
+        background: -webkit-linear-gradient(
+            to bottom,
+            #4286f4,
+            #373b44
+          );
+          background: linear-gradient(
+            to bottom,
+            #4286f4,
+            #373b44
+          );
       }
       
-    h2 {
+    .sectionHeading {
         text-align: center;
-        font-size: 6rem;
+        font-size: 7rem;
+        font-weight: bolder;
         background: -webkit-linear-gradient(#38d39f, #38a4d3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
     
-    p {
+    .sectionParagraph {
         text-align: center;
         font-style: italic;
-        font-size: 22px;
+        font-size: 24px;
         color: #fff
       }
 
@@ -64,7 +75,7 @@ const Contact = () => (
         color: #fff;
     }
       
-    a {
+    .contact-details {
         display: inline;
         color: white;
         justify-content: center;
@@ -76,11 +87,18 @@ const Contact = () => (
         padding: 0.8rem;
       }
       
-    a:hover {
+    .contact-details:hover {
         transform: translateY(8px);
         background: -webkit-linear-gradient(#38d39f, #38a4d3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+      }
+      .wolfImage {
+        align: center;
+        height: 45vmin;
+        margin: 1px auto;
+        display: block;
+        opacity: 0.4;
       }
 `}</style>
         </section >

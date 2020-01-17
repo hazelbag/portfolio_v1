@@ -19,10 +19,22 @@ const Index = () => (
           </div>
         </div>
       </div>
+      <img className='wolfImage' src='./static/wolfhowl.png' />
     </div>
     <style jsx>{`
     .landingDiv {
       padding-top: 0.8rem;
+      background: -webkit-linear-gradient(
+          to bottom,
+          #4286f4,
+          #373b44
+        );
+        background: linear-gradient(
+          to bottom,
+          #4286f4,
+          #373b44
+        );
+        min-height: 100%;
     }
     .wolfImage {
       align: center;
@@ -48,7 +60,7 @@ const Index = () => (
     }
     .landingHeading {
       text-align: center;
-      font-size: 5rem;
+      font-size: 5.5rem;
       font-weight: bolder;
       background: -webkit-linear-gradient(#38d39f, #38a4d3);
       -webkit-background-clip: text;

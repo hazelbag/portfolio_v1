@@ -12,16 +12,39 @@ const Projects = (props) => (
         <div className="row">
           <div className="col-sm">
             <div className="cardBody card">
+              <h4 className="card-header">devConnection</h4>
+              <img className="card-img-top bg-light" src="../static/devConnect.JPG" alt="Card image cap" />
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
+                  <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-node-js fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+            <br />
+                <br />
+                <a href="https://github.com/hazelbag/devConnect" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
+            <a href="https://cryptic-harbor-46267.herokuapp.com/" target="_blank" className="btn btn-primary">
+            <i className="fab fa-chrome"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="cardBody card">
               <h4 className="card-header">Star Wars</h4>
               <img className="card-img-top bg-light" src="../static/starwars.JPG" alt="Card image cap" />
               <div className="card-body bg-secondary">
                 <h5 className="card-title">Languages used on project</h5>
-                <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-js-square fa-3x"></i>&nbsp;
                   <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/Star-Wars-API-Fun" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
-                <a href="https://starwars.hazelbag.now.sh/" target="_blank" className="btn btn-primary">Live Link</a>
+                <a href="https://github.com/hazelbag/Star-Wars-API-Fun" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
+                <a href="https://starwars.hazelbag.now.sh/" target="_blank" className="btn btn-primary">
+                <i className="fab fa-chrome"></i></a>
               </div>
             </div>
           </div>
@@ -31,15 +54,17 @@ const Projects = (props) => (
               <img className="card-img-top bg-light" src="../static/itunesSearch.JPG" alt="Card image cap" />
               <div className="card-body bg-secondary">
                 <h5 className="card-title">Languages used on project</h5>
-                <i className="fab fa-react fa-3x"></i>&nbsp;
+                  <i className="fab fa-react fa-3x"></i>&nbsp;
                   <i className="fab fa-node-js fa-3x"></i>&nbsp;
                   <i className="fab fa-js-square fa-3x"></i>&nbsp;
                   <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/iTunes-Media-Search" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
-                <a href="https://itunes-search-hazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+                <a href="https://github.com/hazelbag/iTunes-Media-Search" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
+                <a href="https://itunes-search-hazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">
+                <i className="fab fa-chrome"></i></a>
               </div>
             </div>
           </div>
@@ -56,8 +81,10 @@ const Projects = (props) => (
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/minesweeper-react-game" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
-                <a href="https://minesweeperhazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">Live Link</a>
+                <a href="https://github.com/hazelbag/minesweeper-react-game" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
+                <a href="https://minesweeperhazelbag.herokuapp.com/" target="_blank" className="btn btn-primary">
+                <i className="fab fa-chrome"></i></a>
               </div>
             </div>
           </div>
@@ -76,7 +103,8 @@ const Projects = (props) => (
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/JSON-Notes-API-APP" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://github.com/hazelbag/JSON-Notes-API-APP" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
               </div>
             </div>
           </div>
@@ -91,7 +119,24 @@ const Projects = (props) => (
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/Speech-Detector" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://github.com/hazelbag/Speech-Detector" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
+              </div>
+            </div>
+          </div>
+          <div className="col-sm">
+            <div className="cardBody card mb-3">
+              <h4 className="card-header">Count Down Timer</h4>
+              <img className="card-img-top bg-light" src="../static/countDownTimer.JPG" alt="Card image cap" />
+              <div className="card-body bg-secondary">
+                <h5 className="card-title">Languages used on project</h5>
+                <i className="fab fa-js-square fa-3x"></i>&nbsp;
+                  <i className="fab fa-css3-alt fa-3x"></i>&nbsp;
+                  <i className="fab fa-html5 fa-3x"></i>
+                <br />
+                <br />
+                <a href="https://github.com/hazelbag/Countdown-Timer" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
               </div>
             </div>
           </div>
@@ -105,7 +150,8 @@ const Projects = (props) => (
                   <i className="fab fa-html5 fa-3x"></i>
                 <br />
                 <br />
-                <a href="https://github.com/hazelbag/Flex-Panel-Gallery" className="btn btn-primary" target="_blank">GitHub</a>&nbsp;
+                <a href="https://github.com/hazelbag/Flex-Panel-Gallery" className="btn btn-primary" target="_blank">
+                <i className="fab fa-github"></i></a>&nbsp;
               </div>
             </div>
           </div>
