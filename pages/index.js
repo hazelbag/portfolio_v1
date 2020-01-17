@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 
-
 const Index = () => (
   <Layout>
     <div className='landingDiv'>
