@@ -16,6 +16,7 @@ export default class Layout extends React.Component {
     <div className='layoutMainDiv'>
       <Head>
         <title>jOlivier || Web Developer</title>
+        <meta name="google-site-verification" content="vlNuQiKYm9dQ9uVcpJQVO0V5oiXRzJ9tCQS_lCY2WMk" />
         <link rel="shortcut icon" type="image/x-icon" href="./static/myIcon.ico" />
         <meta
           name="viewport"
