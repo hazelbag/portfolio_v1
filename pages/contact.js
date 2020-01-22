@@ -74,9 +74,14 @@ const Contact = () => (
         font-size: 2.4rem;
         color: #fff;
     }
+
+    @media (max-width: 767px) {
+      .contact-details {
+        display: block;
+      }
+    }
       
     .contact-details {
-        display: inline;
         color: white;
         justify-content: center;
         width: 100%;
