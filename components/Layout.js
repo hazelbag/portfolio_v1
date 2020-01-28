@@ -4,13 +4,14 @@ import Head from 'next/head';
 import Navbar from './Navbar';
 
 export default class Layout extends React.Component {
-  componentDidMount () {
-    if (!window.GA_INITIALIZED) {
-      initGA()
-      window.GA_INITIALIZED = true
-    }
-    logPageView()
-  }
+  // Should you want to run analytics on your site, uncomment the below code and add your analytics ID to utils/analytics
+  // componentDidMount () {
+  //   if (!window.GA_INITIALIZED) {
+  //     initGA()
+  //     window.GA_INITIALIZED = true
+  //   }
+  //   logPageView()
+  // }
   render () {
     return (
     <div className='layoutMainDiv'>

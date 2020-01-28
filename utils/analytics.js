@@ -2,6 +2,8 @@ import ReactGA from 'react-ga'
 
 export const initGA = () => {
     console.log('GA Init')
+    // Analytics ID goes here
+    ReactGA.initialize('UA-XXXXXX-X')
 }
 
 export const logPageView = () => {
